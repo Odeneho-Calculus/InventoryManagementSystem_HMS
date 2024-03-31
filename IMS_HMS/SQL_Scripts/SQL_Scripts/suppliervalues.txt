@@ -1,0 +1,9 @@
+insert into supplier values(1,"Hammer Suppliers","526,Adarsh nagar,Ajmer",01452246353,01456563113,"supplier1@gmail.com");
+insert into supplier values(2,"Wood Cutter Suppliers","551,Vaishali nagar,Ajmer",0145281253,0145671213,"supplier2@gmail.com");
+insert into supplier values(3,"Axe Suppliers","A-123,Guja nagar,Ajmer",0145288363,01459563113,"supplier3@gmail.com");
+insert into supplier values(4,"GC Suppliers","H-123,Falak nagar,Ajmer",01452128353,01456551813,"supplier4@gmail.com");
+insert into supplier values(5,"Pipe suppliers","j-10,Raeshar Complex,Ajmer",01452246353,01456563113,"supplier5@gmail.com");
+insert into supplier values(6,"DLock Suppliers","Plot-68,Gandhi Nagar,Ajmer",0145128363,01459563110,"supplier6@gmail.com");
+insert into supplier values(7,"Helmet Suppliers","H-123,Falak nagar,Ajmer",01452167213,01456635113,"supplier7@gmail.com");
+insert into supplier values(8,"Stand Suppliers","j-10,Raeshar Complex,Ajmer",01452296753,01459012113,"supplier8@gmail.com");
+

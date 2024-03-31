@@ -1,0 +1,5 @@
+insert into credentials values(101,"pass101");
+insert into credentials values(102,"pass102");
+insert into credentials values(103,"pass103");
+insert into credentials values(104,"pass104");
+insert into credentials values(105,"pass105");

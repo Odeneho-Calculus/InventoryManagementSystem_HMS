@@ -1,0 +1,5 @@
+insert into shop values(101,"Uson Hardwares","423/34,Shyam nagar,Ajmer",01412234736,01416739870,"usonajmer@gmail.com");
+insert into shop values(102,"Galaxy Hardwares","672/13,Gs nagar,Ajmer",01412246382,01416563870,"galaxyhw@gmail.com");
+insert into shop values(103,"Mansion Hardwares","G-25,Makhupura nagar,Ajmer",01412249670,01413408870,"mansion21@gmail.com");
+insert into shop values(104,"Symphony Hardware","A-108,raja nagar,Ajmer",01412238612,01410739870,"symph123@gmail.com");
+insert into shop values(105,"Todays Hardware","321,Triumph nagar,Ajmer",01412256232,01413079870,"shop5@gmail.com");

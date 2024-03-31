@@ -1,0 +1,17 @@
+create database google;
+use google;
+create table shop(shopid int primary key,shop_name varchar(25),shop_add varchar(50),shopphone1 varchar(11),shopphone2 varchar(11),shopemail varchar(20));
+create table customer(cust_id int primary key auto_increment,cust_name varchar(25),cust_add varchar(50),custphone1 varchar(11),custphone2 varchar(11),custemail varchar(20),total float,shopid int,foreign key(shopid) references shop(shopid));
+
+create table supplier(suppid int primary key,supp_name varchar(25),supp_add varchar(50),suppphone1 varchar(11),suppphone2 varchar(11),suppemail varchar(20));
+create table hwlist(hid int primary key,hname varchar(25),description varchar(70),cp float,sp float,suppid int,foreign key(suppid) references supplier(suppid));
+create table hwstock(shopid int,hid int,quantity int,foreign key(shopid) references shop(shopid), CHECK (quantity>=0));
+alter table hwstock add foreign key(hid) references hwlist(hid);
+
+
+create table credentials(sid int primary key, pass varchar(12));
+insert into credentials values(101,"pass101");
+insert into credentials values(102,"pass102");
+insert into credentials values(103,"pass103");
+insert into credentials values(104,"pass104");
+insert into credentials values(105,"pass105");
